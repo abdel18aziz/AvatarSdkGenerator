@@ -6,11 +6,11 @@ public class Executeshell {
 
     public static void main (String [] args){
 
-            TheThread folderN1 = new TheThread("fromlinux1");
-            TheThread folderN2 = new TheThread("fromlinux2");
-            TheThread folderN3 = new TheThread("fromlinux3");
-            TheThread folderN4 = new TheThread("fromlinux4");
-            TheThread folderN5 = new TheThread("fromlinux5");
+            TheThread folderN1 = new TheThread("/*FOLDERNAME*/");
+            TheThread folderN2 = new TheThread("/*FOLDERNAME*/");
+            TheThread folderN3 = new TheThread("/*FOLDERNAME*/");
+            TheThread folderN4 = new TheThread("/*FOLDERNAME*/");
+            TheThread folderN5 = new TheThread("/*FOLDERNAME*/");
 
         folderN1.start();
         folderN2.start();
